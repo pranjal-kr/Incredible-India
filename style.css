@@ -16,10 +16,7 @@ body
     text-transform: uppercase;
 	background: linear-gradient(to right, orange 45%, rgb(5, 255, 5) 75%);
 	   -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-  
-  }
-    
+    -webkit-text-fill-color: transparent;    
     text-align: center;
 }
 .center

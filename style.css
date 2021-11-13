@@ -1,0 +1,67 @@
+body
+{
+ 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: blur();
+  }
+.font1 
+{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 52px;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+	background: linear-gradient(to right, orange 45%, rgb(5, 255, 5) 75%);
+	   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  
+  }
+    
+    text-align: center;
+}
+.center
+ {
+  transition: all .5s ease;
+  color: rgb(255, 0, 0);
+  border: 3px solid rgba(255, 0, 0, 0.719);
+  font-family:'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color : transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  transition: all .5s ease;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    
+}
+button:hover {
+  color: orange;
+  background-color: #fff;
+  border: 3px solid rgb(157, 255, 0);
+}
+

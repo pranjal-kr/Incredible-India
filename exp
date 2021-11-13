@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <img src="food.jpg" class="image1" alt="Sorry">
+            <div class="info">
+                <h1>Food</h1>
+                <p>Know about Indian delicious food items! </p>
+
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="main.css">
+                    <title>Explore</title>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="card">
+                            <div class="card-title1"></div>
+                            <div class="card-body">
+                                <h1>Food</h1>
+                                <br>
+                                <p>Taj Mahal is a beatiful place to visit do ghumi ghumi and many more</p>
+                                <br>
+                                <button id="btn1"">Lets GO</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title2"></div>
+                            <div class="card-body">
+                                <h1>Food</h1>
+                                <br>
+                                <p>Taj Mahal is a beatiful place to visit do ghumi ghumi and many more</p>
+                                <br>
+                                <button id="btn1"">Lets GO</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title3"></div>
+                            <div class="card-body">
+                                <h1>Food</h1>
+                                <br>
+                                <p>Taj Mahal is a beatiful place to visit do ghumi ghumi and many more</p>
+                                <br>
+                                <button id="btn1"">Lets GO</button>
+                            </div>
+                        </div>
+                    </div>
+                </body>
+                </html>
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background:#2d3436;
+    color: WHITE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    flex-basis: 20%;
+    background-color: black;
+}
+.card-title1
+{
+    width: 100%;
+    height: 250px;
+    background:url('food3.jpg');
+    background-size: cover;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%,100% 80%,0% 100%);
+
+}
+br br
+.card-title2
+{
+    width: 100%;
+    height: 250px;
+    background:url('food3.jpg');
+    background-size: cover;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%,100% 80%,0% 100%);
+
+}
+br br
+.card-title3
+{
+    width: 100%;
+    height: 250px;
+    background:url('food3.jpg');
+    background-size: cover;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%,100% 80%,0% 100%);
+
+}
+.card{
+    padding: 15px;
+} 
+h2
+{
+    margin: 10px;
+}
+#btn1
+{
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    margin: 20px 0px;
+}

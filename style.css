@@ -1,12 +1,13 @@
 body
 {
  
-    background: url(background.jpg) no-repeat center center fixed; 
+    background: url(/images/background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-image: blur();
+    min-height: 100vh;
   }
 .font1 
 {
@@ -61,4 +62,8 @@ button:hover {
   background-color: #fff;
   border: 3px solid rgb(157, 255, 0);
 }
+
+
+
+  
 

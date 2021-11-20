@@ -1,0 +1,17 @@
+body
+{
+    background-color: #222;
+    min-height: 100vh;
+    display: flex
+}
+.container1st
+{
+    background-color: white;
+    width: 500px;
+    height: 590px;
+    margin: 5px;
+}
+button1
+{
+    width: 4px;
+}

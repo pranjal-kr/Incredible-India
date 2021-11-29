@@ -1,8 +1,14 @@
 body
 {
-    background-color: #222;
+    background-color:#181818;
+    
     min-height: 100vh;
-    display: flex
+    display: flex; 
+}
+@media all and (max-width: 700px){
+    body {
+        display:block;
+    }
 }
 .container1st
 {
@@ -10,6 +16,7 @@ body
     width: 400px;
     height: 518px;
     margin: 45px;
+    border-radius: 50% 50%, 50% 50%, 50% 50%, 50% 50%,;
 }
 button1
 {

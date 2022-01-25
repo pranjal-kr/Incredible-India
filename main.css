@@ -5,27 +5,38 @@ body
     min-height: 100vh;
     display: flex; 
 }
-@media all and (max-width: 700px){
+@media all and (max-width: 900px){
     body {  
         display:block;
     }
 }
-@media
+@media all and (max-width:700px)
 {
-.all-cards
+    .container1st{
+        text-align: center;
+        width:100px;
+    }
+}
+@media all and (max-width:700px){
+.every-card
 {
-    text-align: center;
+    display: flex;
+
 }
 }
 .container1st
 {
-    background-color: white;
+    background-color: #222;
     width: 400px;
     height: 518px;
     margin: 45px;
-    border-radius: 50% 50%, 50% 50%, 50% 50%, 50% 50%,;
 }
 button1
 {
     width: 2px;
+    text-align: center;
+    
+}
+.all-cards{
+    text-align: center;
 }
